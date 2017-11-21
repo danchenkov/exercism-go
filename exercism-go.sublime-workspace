@@ -1,0 +1,1370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Quo",
+				"QuoteRune\tstring ƒ"
+			],
+			[
+				"mi",
+				"multiplier\tfloat64 ν"
+			],
+			[
+				"pa",
+				"part2\t Ɩ"
+			],
+			[
+				"secre",
+				"secret_messages\t[]string ν"
+			],
+			[
+				"err",
+				"errors\t package ρ"
+			],
+			[
+				"Fa",
+				"Fatalf\t ƒ"
+			],
+			[
+				"ch",
+				"christmasDays\t[...]string ν"
+			],
+			[
+				"IS",
+				"IsNaN\tis bool ƒ"
+			],
+			[
+				"Trim",
+				"TrimSpace\tstring ƒ"
+			],
+			[
+				"C",
+				"ContainsAny\tbool ƒ"
+			],
+			[
+				"Has",
+				"HasSuffix\tbool ƒ"
+			],
+			[
+				"header",
+				"header-col-blog-subscribe"
+			],
+			[
+				"header-col-blog-",
+				"header-col-blog-title"
+			],
+			[
+				"header-col",
+				"header-col-featured"
+			],
+			[
+				"header-col-",
+				"header-col-blog"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"tags",
+				"tagsByLength\t[]Tag ʈ"
+			],
+			[
+				"ta",
+				"TagManager\t*TagManager ν"
+			],
+			[
+				"col-sm-",
+				"col-sm-offset-2"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"Cont",
+				"contentTypeNews\t Ɩ"
+			],
+			[
+				"col-sm",
+				"col-sm-offset-2"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bacgr",
+				"background-color"
+			],
+			[
+				"contentType",
+				"contentTypeNews\t Ɩ"
+			],
+			[
+				"cont",
+				"contentTypeVideo\t Ɩ"
+			],
+			[
+				"Page",
+				"PageAttrs\tstruct ʈ"
+			],
+			[
+				"Pag",
+				"PageAttrs\tstruct ʈ"
+			],
+			[
+				"home",
+				"home-row-section"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"trans",
+				"transition-property"
+			],
+			[
+				"Pa",
+				"PageAttrs\t*PageAttrs ν"
+			],
+			[
+				"P",
+				"PageAttrs\t*PageAttrs ν"
+			],
+			[
+				"Attr",
+				"attrsList\tPageAttrsList ν"
+			],
+			[
+				"At",
+				"Attrs\t*PageAttrs ν"
+			],
+			[
+				"D",
+				"Disabled\tbool ν"
+			],
+			[
+				"news",
+				"new-style"
+			],
+			[
+				"col-md",
+				"col-md-offset-1"
+			],
+			[
+				"With",
+				"WithSubtype\tl PageAttrsList ƒ"
+			],
+			[
+				"S",
+				"Subtype\tstring ν"
+			],
+			[
+				"parent",
+				"parentElement"
+			],
+			[
+				"subhead",
+				"subheadline"
+			],
+			[
+				"A",
+				"AttrManager\tAttrManager ν"
+			],
+			[
+				"Wi",
+				"WithDisplayDate\tl PageAttrsList ƒ"
+			],
+			[
+				"scal",
+				"scalefit-120x120"
+			],
+			[
+				"libre-b",
+				"libre-baskerville"
+			],
+			[
+				"letter",
+				"letter-carousel"
+			],
+			[
+				"si",
+				"siteId\t ν"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"test",
+				"test_http_listen\t Ɩ"
+			],
+			[
+				"htt",
+				"test_http_listen\t Ɩ"
+			],
+			[
+				"Pr",
+				"Printf\tn int, err error ƒ"
+			],
+			[
+				"Print",
+				"Printf\t ƒ"
+			],
+			[
+				"http",
+				"http_port\tstring ν"
+			],
+			[
+				"run",
+				"run_https_listen\t Ɩ"
+			],
+			[
+				"video-kenny",
+				"video-kenny-seybold-on-ron-miscavige"
+			],
+			[
+				"20px",
+				"270px"
+			],
+			[
+				"contr",
+				"controlControls"
+			],
+			[
+				"stop",
+				"stopPlaying"
+			],
+			[
+				"auto",
+				"autoplay"
+			],
+			[
+				"ini",
+				"initialItem"
+			],
+			[
+				"read",
+				"readiness"
+			],
+			[
+				"video",
+				"video-trailer"
+			],
+			[
+				"interv",
+				"interval1"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"san",
+				"sans-serif"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"pr",
+				"proxy_password"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "luhn/luhn_test.go",
+			"settings":
+			{
+				"buffer_size": 354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luhn/luhn.go",
+			"settings":
+			{
+				"buffer_size": 446,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "package luhn"
+			}
+		},
+		{
+			"file": "luhn/cases_test.go",
+			"settings":
+			{
+				"buffer_size": 1200,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luhn/README.md",
+			"settings":
+			{
+				"buffer_size": 2196,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 566.0,
+		"history":
+		[
+			"move word_begin",
+			"permute_lines unique",
+			"permute_lines uniqie",
+			"help",
+			"help permuteLines",
+			"permuteLines",
+			"permuteLines [unique]",
+			"permuteLines {unique}",
+			"permuteLines unique",
+			"permuteLines (\"unique\")",
+			"permuteLines(\"unique\")",
+			"permuteLines unique: true",
+			"permuteLines unique",
+			"permuteLines \"unique\"",
+			"permuteLines: 'unique'",
+			"permuteLines 'unique'",
+			"permuteLines: unique",
+			"permuteLines 'unique'",
+			"permuteLines method unique",
+			"permuteLines unique",
+			"permuteLines 'method': 'unique'",
+			"permuteLines('method''unique')",
+			"permuteLines('method': 'unique')",
+			"permuteLines('unique': true)",
+			"permuteLines{'unique': true}",
+			"permuteLines {'unique': true}",
+			"permuteLines {unique: true}",
+			"permuteLines 'unique'",
+			"permuteLines unique",
+			"permuteLines \"unique\"",
+			"permute_lines",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/adanchenkov/exercism/go",
+		"/Users/adanchenkov/exercism/go/accumulate",
+		"/Users/adanchenkov/exercism/go/hello-world",
+		"/Users/adanchenkov/exercism/go/house",
+		"/Users/adanchenkov/exercism/go/isogram",
+		"/Users/adanchenkov/exercism/go/luhn",
+		"/Users/adanchenkov/exercism/go/pascals-triangle",
+		"/Users/adanchenkov/exercism/go/raindrops",
+		"/Users/adanchenkov/exercism/go/scrabble-score",
+		"/Users/adanchenkov/exercism/go/series",
+		"/Users/adanchenkov/exercism/go/space-age",
+		"/Users/adanchenkov/exercism/go/triangle",
+		"/Users/adanchenkov/exercism/go/twelve-days",
+		"/Users/adanchenkov/exercism/go/two-fer"
+	],
+	"file_history":
+	[
+		"/Users/adanchenkov/exercism/go/luhn/README.md",
+		"/Users/adanchenkov/exercism/go/isogram/isogram_test.go",
+		"/Users/adanchenkov/exercism/go/isogram/isogram.go",
+		"/Users/adanchenkov/exercism/go/isogram/README.md",
+		"/Users/adanchenkov/exercism/go/isogram/cases_test.go",
+		"/Users/adanchenkov/exercism/go/scrabble-score/cases_test.go",
+		"/Users/adanchenkov/exercism/go/scrabble-score/README.md",
+		"/Users/adanchenkov/exercism/go/scrabble-score/scrabble_score_test.go",
+		"/Users/adanchenkov/exercism/go/scrabble-score/scrabble_score.go",
+		"/Users/adanchenkov/exercism/go/space-age/space_age.go",
+		"/Users/adanchenkov/exercism/go/space-age/space_age_test.go",
+		"/Users/adanchenkov/.zsh_history",
+		"/Users/adanchenkov/exercism/go/space-age/README.md",
+		"/Users/adanchenkov/Downloads/list-out.txt",
+		"/Users/adanchenkov/exercism/go/series/README.md",
+		"/Users/adanchenkov/exercism/go/series/first_test.go",
+		"/Users/adanchenkov/exercism/go/series/asktoomuch_test.go",
+		"/Users/adanchenkov/exercism/go/series/series_test.go",
+		"/Users/adanchenkov/exercism/go/series/series.go",
+		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
+		"/Users/adanchenkov/exercism/go/two-fer/README.md",
+		"/Users/adanchenkov/exercism/go/two-fer/example_two_fer_test.go",
+		"/Users/adanchenkov/exercism/go/two-fer/two_fer.go",
+		"/Users/adanchenkov/exercism/go/two-fer/two_fer_test.go",
+		"/Users/adanchenkov/exercism/go/pascals-triangle/README.md",
+		"/Users/adanchenkov/exercism/go/pascals-triangle/pascals_triangle.go",
+		"/Users/adanchenkov/exercism/go/pascals-triangle/pascals_triangle_test.go",
+		"/Users/adanchenkov/Sites/newsroom/editable/press-releases/scientology-volunteer-ministers-of-florida-respond-to-texas-floods.html",
+		"/Users/adanchenkov/exercism/go/house/house.go",
+		"/Users/adanchenkov/Sites/stand/editable/blog/make-this-the-best-of-times.html",
+		"/Users/adanchenkov/exercism/go/secret-handshake/secret_handshake.go",
+		"/Users/adanchenkov/exercism/go/secret-handshake/secret_handshake_test.go",
+		"/Users/adanchenkov/exercism/go/secret-handshake/README.md",
+		"/Users/adanchenkov/Downloads/orgid-not-found.txt",
+		"/Users/adanchenkov/exercism/go/error-handling/README.md",
+		"/Users/adanchenkov/exercism/go/error-handling/error_handling_test.go",
+		"/Users/adanchenkov/exercism/go/error-handling/common.go",
+		"/Users/adanchenkov/exercism/go/error-handling/error_handling.go",
+		"/Users/adanchenkov/exercism/go/t.go",
+		"/Users/adanchenkov/exercism/go/raindrops/raindrops.go",
+		"/Users/adanchenkov/Sites/stand/editable/news/media-watch/stand-demands-resignation-of-fox-news-reporter-after-his-hate-tweet-is-exposed.html",
+		"/Users/adanchenkov/exercism/go/difference-of-squares/difference_of_squares.go",
+		"/Users/adanchenkov/exercism/go/difference-of-squares/difference_of_squares_test.go",
+		"/Users/adanchenkov/exercism/go/difference-of-squares/README.md",
+		"/Users/adanchenkov/exercism/go/twelve-days/README.md",
+		"/Users/adanchenkov/exercism/go/triangle/triangle_test.go",
+		"/Users/adanchenkov/exercism/go/twelve-days/twelve_days.go",
+		"/Users/adanchenkov/exercism/go/twelve-days/twelve_days_test.go",
+		"/Users/adanchenkov/exercism/go/triangle/README.md",
+		"/Users/adanchenkov/exercism/go/triangle/triangle.go",
+		"/Users/adanchenkov/exercism/go/bob/README.md",
+		"/Users/adanchenkov/exercism/go/bob/bob.go",
+		"/Users/adanchenkov/exercism/go/pangram/pangram_test.go",
+		"/Users/adanchenkov/exercism/go/pangram/pangram.go",
+		"/Users/adanchenkov/exercism/go/acronym/README.md",
+		"/Users/adanchenkov/exercism/go/acronym/acronym.go",
+		"/Users/adanchenkov/.gitignore_global",
+		"/Users/adanchenkov/.zshrc",
+		"/Users/adanchenkov/Code/dotfiles/Makefile",
+		"/Users/adanchenkov/exercism/go/accumulate/README.md",
+		"/Users/adanchenkov/exercism/go/accumulate/accumulate.go",
+		"/Users/adanchenkov/exercism/go/raindrops/README.md",
+		"/Users/adanchenkov/exercism/go/hamming/README.md",
+		"/Users/adanchenkov/exercism/go/hamming/hamming.go",
+		"/Users/adanchenkov/Sites/stand/editable/blog/the-power-of-a-well-told-story.html",
+		"/Users/adanchenkov/exercism/go/gigasecond/gigasecond.go",
+		"/Users/adanchenkov/exercism/go/clock/clock.go",
+		"/Users/adanchenkov/exercism/go/clock/README.md",
+		"/Users/adanchenkov/exercism/go/leap/leap.go",
+		"/Users/adanchenkov/exercism/go/hello-world/hello_world.go",
+		"/Users/adanchenkov/exercism/go/hello-world/hello_test.go",
+		"/Users/adanchenkov/exercism/go/hello-world/README.md",
+		"/Users/adanchenkov/Sites/autoresponder/src/inetgit.staff.scientology.net/gocsi/boring/langhelp/langhelp.go",
+		"/Users/adanchenkov/Sites/oxfordcapacityanalysis/src/site_www_oxfordcapacityanalysis_org/context.go",
+		"/Users/adanchenkov/Sites/autoresponder/src/data/data_orgs/orgs.xml",
+		"/Users/adanchenkov/Sites/autoresponder/script/scheduler.go",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.stand-league.org/stand-subscription/20170701-3.html",
+		"/Users/adanchenkov/Sites/autoresponder/src/site_autoresponder/main.go",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.stand-league.org/stand-subscription/stand-initial-email.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/stand-subscription/stand-initial-email.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/stand-subscription/20170701-1.html",
+		"/Users/adanchenkov/Sites/autoresponder/src/data/data_orgs/config.xml",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/subscription/stand-initial-email.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/subscription/20170701.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/subscription/autoresponder.xml",
+		"/Users/adanchenkov/Code/email generator/stand.go",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.stand-league.org/stand-subscription/20170620-1.html",
+		"/Users/adanchenkov/Code/email generator/bonafide.go",
+		"/Users/adanchenkov/Code/email generator/bonafide",
+		"/Users/adanchenkov/Code/email generator/emailGenerator.go",
+		"/Users/adanchenkov/Code/email generator/daily-20170620.html",
+		"/Users/adanchenkov/Sites/stand/https.crt",
+		"/Users/adanchenkov/Sites/autoresponder/text/ru/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/pt/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/no/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/nl/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/ja/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/it/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/hu/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/he/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/fr/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/default/gcui_events-008-ias-2016-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/src/site_autoresponder/hook.go",
+		"/Users/adanchenkov/Sites/autoresponder/text/es_ES/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/01-invite-email-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/02-invite-email-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/03-invite-email-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/04-invite-email-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/05-local-countdown-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/06-local-countdown-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/07-local-countdown-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/08-local-countdown-2017.html",
+		"/Users/adanchenkov/Sites/autoresponder/text/es/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/el/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/da/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/de/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/default/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/default/gcui_events-007-mv-2016-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/data/events/mv-2017.xml",
+		"/Users/adanchenkov/Sites/autoresponder/data/events/mv2-2017.xml",
+		"/Users/adanchenkov/Sites/autoresponder/data/events/mv3-2017.xml",
+		"/Users/adanchenkov/Sites/autoresponder/data/events/mv4-2017.xml",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/archive/lrh-2017/06-local-countdown2-lrh.html",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/archive/current-event-2017lrhbd/06-local-countdown2-lrh.html",
+		"/Users/adanchenkov/Sites/whois/editable/blog/articles/opportunity-controls-loyalty.html",
+		"/Users/adanchenkov/Sites/autoresponder/text/sv/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/text/zh/gcui_events-011-mv-2017-emails.xml",
+		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/archive/current-event-2015lrhbd/02-invite-email.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"digit_position",
+			"finalScore",
+			"\"",
+			"\t\t\t",
+			"X",
+			"P       ",
+			",",
+			";git oc",
+			":0;git ci -m ",
+			":0;edit editable",
+			"\\\\\\n",
+			"\\\\n",
+			"ruby ~/bin/narconon.rb ",
+			"round",
+			"val",
+			"places",
+			"all",
+			"els",
+			"in-groups-of-3",
+			"x",
+			"n",
+			"len(subjects)",
+			"subjects",
+			"[c]",
+			"the ",
+			"secret_messages",
+			"decoded_array",
+			"ResourceOpener",
+			"        ",
+			" class=\"\" ",
+			"err, input",
+			"Error: %#v",
+			"Type: %#v\\n",
+			"err.(type), ",
+			"resource, err, input",
+			"i",
+			"N",
+			"s",
+			"numbers",
+			"newNumbers",
+			", ",
+			"const",
+			", ",
+			",",
+			".\"},",
+			"Christmas my true love gave to me, ",
+			"IsInf",
+			", 0",
+			",",
+			"math.Inf(1)",
+			" || ",
+			"Inf",
+			"NaN",
+			"Inf",
+			"input[i]",
+			"\"",
+			": 0",
+			"\n\t\t",
+			".",
+			"1440",
+			"720"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "luhn/luhn_test.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Go/Go.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "luhn/luhn.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_name": "package luhn",
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "luhn/cases_test.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "luhn/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "",
+	"project": "exercism-go.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"schedule",
+				"script/scheduler.go"
+			],
+			[
+				"conf",
+				"src/data/data_orgs/config.xml"
+			],
+			[
+				"data/events/mv-2017.xml",
+				"data/events/mv-2017.xml"
+			],
+			[
+				"data/events/mv2-2017.xml",
+				"data/events/mv2-2017.xml"
+			],
+			[
+				"data/events/mv3-2017.xml",
+				"data/events/mv3-2017.xml"
+			],
+			[
+				"data/events/mv4-2017.xml",
+				"data/events/mv4-2017.xml"
+			],
+			[
+				"gy.org/events/archive/lrh-2017/06-local-countdown2-lrh.htm",
+				"messages/www.scientology.org/events/archive/lrh-2017/06-local-countdown2-lrh.html"
+			],
+			[
+				"event-2017lrhbd/06-local-countdown2-lrh.html",
+				"messages/www.scientology.org/events/archive/current-event-2017lrhbd/06-local-countdown2-lrh.html"
+			],
+			[
+				"messages/www.scientology.org/events/current-event/01-invite-email-2017.html",
+				"messages/www.scientology.org/events/current-event/01-invite-email-2017.html"
+			],
+			[
+				"src/site_autoresponder/hook.go",
+				"src/site_autoresponder/hook.go"
+			],
+			[
+				"text/da/gcui_events-011-mv-2017-emails.xml",
+				"text/da/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/de/gcui_events-011-mv-2017-emails.xml",
+				"text/de/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/default/gcui_events-007-mv-2016-emails.xml",
+				"text/default/gcui_events-007-mv-2016-emails.xml"
+			],
+			[
+				"text/default/gcui_events-011-mv-2017-emails.xml",
+				"text/default/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/el/gcui_events-011-mv-2017-emails.xml",
+				"text/el/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/es/gcui_events-011-mv-2017-emails.xml",
+				"text/es/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/es_es/gcui_events-011-mv-2017-emails.xml",
+				"text/es_ES/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/fr/gcui_events-011-mv-2017-emails.xml",
+				"text/fr/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/he/gcui_events-011-mv-2017-emails.xml",
+				"text/he/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/hu/gcui_events-011-mv-2017-emails.xml",
+				"text/hu/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/it/gcui_events-011-mv-2017-emails.xml",
+				"text/it/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/ja/gcui_events-011-mv-2017-emails.xml",
+				"text/ja/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/nl/gcui_events-011-mv-2017-emails.xml",
+				"text/nl/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/no/gcui_events-011-mv-2017-emails.xml",
+				"text/no/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/pt/gcui_events-011-mv-2017-emails.xml",
+				"text/pt/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/ru/gcui_events-011-mv-2017-emails.xml",
+				"text/ru/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/sv/gcui_events-011-mv-2017-emails.xml",
+				"text/sv/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"text/zh/gcui_events-011-mv-2017-emails.xml",
+				"text/zh/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"hook",
+				"src/site_autoresponder/hook.go"
+			],
+			[
+				"00-static-invite-email",
+				"messages/www.scientology.org/events/current-event/00-static-invite-email.html"
+			],
+			[
+				"textmv2017",
+				"text/default/gcui_events-011-mv-2017-emails.xml"
+			],
+			[
+				"main",
+				"src/site_autoresponder/main.go"
+			],
+			[
+				"mv20",
+				"data/events/mv-2016.xml"
+			],
+			[
+				"datado",
+				"src/data/data_sites/domain_orgs.go"
+			],
+			[
+				"site",
+				"src/data/data_sites/sites.go"
+			],
+			[
+				"miami",
+				"messages/www.oxfordcapacityanalysis.org/en/oca-more-info/07-miami-opening-article-email.html"
+			],
+			[
+				"conte",
+				"src/golang.org/x/net/context/context.go"
+			],
+			[
+				"copyright",
+				"includes/www.cchr.org/cchr-copyright.html"
+			],
+			[
+				"html.html",
+				"includes/html.html"
+			],
+			[
+				"page-vid",
+				"includes/page-videos.html"
+			],
+			[
+				"main.css",
+				"web/theme/css/main.css"
+			],
+			[
+				"videos",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"video-link",
+				"includes/video-link.html"
+			],
+			[
+				"regions",
+				"src/site_www_bonafidescientology_org/regions.go"
+			],
+			[
+				"videoheader",
+				"includes/header/video-header.html"
+			],
+			[
+				"video",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"page-blog",
+				"includes/page-blog.html"
+			],
+			[
+				"attr",
+				"src/site_www_bonafidescientology_org/attrs.go"
+			],
+			[
+				"home-video-slider",
+				"includes/home-video-slider.html"
+			],
+			[
+				"context",
+				"src/site_www_bonafidescientology_org/context.go"
+			],
+			[
+				"rabbi",
+				"editable/videos/rabbi-michael-shevack.html"
+			],
+			[
+				"landmark",
+				"includes/landmark_event_slider.html"
+			],
+			[
+				"david",
+				"editable/videos/david-bennett.html"
+			],
+			[
+				"viewsinde",
+				"views/index.html"
+			],
+			[
+				"page-leg",
+				"includes/page-legacy.html"
+			],
+			[
+				"pg021",
+				"editable/articles/pg021.html"
+			],
+			[
+				"page",
+				"includes/page-legacy.html"
+			],
+			[
+				"page-l",
+				"includes/page-legacy.html"
+			],
+			[
+				"page-le",
+				"includes/page-legacy.html"
+			],
+			[
+				"page-art",
+				"includes/page-article.html"
+			],
+			[
+				"page-ar",
+				"includes/page-article.html"
+			],
+			[
+				"religiousrpf",
+				"views/religious-expertises/church-of-scientology-rpf/the-rehabilitation-project-force.html"
+			],
+			[
+				"blogindex",
+				"views/blog/index.html"
+			],
+			[
+				"maincss",
+				"web/theme/css/main.css"
+			],
+			[
+				"page-vie",
+				"includes/page-videos.html"
+			],
+			[
+				"security",
+				"src/site_www_bonafidescientology_org/security-handler.go"
+			],
+			[
+				"page.html",
+				"includes/page.html"
+			],
+			[
+				"combine",
+				"src/site_www_bonafidescientology_org/combined-handler.go"
+			],
+			[
+				"topnav",
+				"includes/prebanner/topnav.html"
+			],
+			[
+				"regions.go",
+				"src/site_www_bonafidescientology_org/regions.go"
+			],
+			[
+				"html",
+				"includes/html.html"
+			],
+			[
+				"landhea",
+				"includes/header/news-landmark-header.html"
+			],
+			[
+				"tag",
+				"src/site_www_bonafidescientology_org/tag.go"
+			],
+			[
+				"page-",
+				"includes/page-blog.html"
+			],
+			[
+				"video-inline",
+				"includes/video-inline.html"
+			],
+			[
+				"video-header",
+				"includes/header/video-header.html"
+			],
+			[
+				"page-videos",
+				"includes/page-videos.html"
+			],
+			[
+				"page-news",
+				"includes/page-news.html"
+			],
+			[
+				"redirect",
+				"src/site_www_bonafidescientology_org/redirects.go"
+			],
+			[
+				"attr.",
+				"src/site_www_bonafidescientology_org/attrs.go"
+			],
+			[
+				"footer",
+				"includes/footer/footer.html"
+			],
+			[
+				"htmlhtml",
+				"includes/html.html"
+			],
+			[
+				"style",
+				"views/style-guide.html"
+			],
+			[
+				"blogheader",
+				"includes/header/blog-header.html"
+			],
+			[
+				"redire",
+				"src/site_www_bonafidescientology_org/redirects.go"
+			],
+			[
+				"footedit",
+				"src/site_www_bonafidescientology_org/context-editable.go"
+			],
+			[
+				"banner.html",
+				"includes/banner.html"
+			],
+			[
+				"pagec",
+				"includes/page-clean.html"
+			],
+			[
+				"bloghead",
+				"includes/header/blog-header.html"
+			],
+			[
+				"newsinde",
+				"views/news/index.html"
+			],
+			[
+				"newsindex",
+				"views/news/index.html"
+			],
+			[
+				"urch-of-scientology-german-religious-recognitions.html",
+				"editable/religious-recognitions/church-of-scientology-german-religious-recognitions.html"
+			],
+			[
+				"main.",
+				"web/theme/css/main.css"
+			],
+			[
+				"attrs",
+				"src/site_www_bonafidescientology_org/attrs.go"
+			],
+			[
+				"sitedata",
+				"src/inetgit.staff.scientology.net/sites/data_sites/data.go"
+			],
+			[
+				"lin",
+				"includes/meta/link_data.html"
+			],
+			[
+				"editable-pages-listing.htm",
+				"src/inetgit.staff.scientology.net/gocsi/authoring/includes/editable-pages-listing.html"
+			],
+			[
+				"contex",
+				"src/site_www_bonafidescientology_org/context.go"
+			],
+			[
+				"what-is-freedom-of-religion/index",
+				"views/religious-expertises/what-is-freedom-of-religion/index.html"
+			],
+			[
+				"whaisfreedom",
+				"includes/religious-expertises/what-is-freedom-of-religion.html"
+			],
+			[
+				"editinde",
+				"editable/news/landmark-decisions/uk-supreme-court-issues-landmark-decision-regarding-the-scientology-religion.html"
+			],
+			[
+				"landmarkindex",
+				"views/news/landmark-decisions/index.html"
+			],
+			[
+				"s/scientology-historical-morphological/",
+				"views/religious-expertises/scientology-historical-morphological/index.html"
+			],
+			[
+				"news/landmark-decisionsindex",
+				"views/news/landmark-decisions/index.html"
+			],
+			[
+				"regi",
+				"src/site_www_bonafidescientology_org/regions.go"
+			],
+			[
+				"page-clea",
+				"includes/page-clean.html"
+			],
+			[
+				"landmaindex",
+				"views/news/landmark-decisions/index.html"
+			],
+			[
+				"gcui_bonafides-029-landmark-decisions.xml",
+				"text/default/gcui_bonafides-029-landmark-decisions.xml"
+			],
+			[
+				"pagevide",
+				"includes/page-videos.html"
+			],
+			[
+				"david-be",
+				"editable/videos/david-bennett.html"
+			],
+			[
+				"index",
+				"views/index.html"
+			],
+			[
+				"videos.xml",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"region",
+				"src/site_www_bonafidescientology_org/regions.go"
+			],
+			[
+				"socievolun",
+				"views/scientology-in-society/volunteer-ministers.html"
+			],
+			[
+				"sociecchr",
+				"views/scientology-in-society/citizens-commission-on-human-rights.html"
+			],
+			[
+				"sociehuman",
+				"views/scientology-in-society/human-rights.html"
+			],
+			[
+				"socienarcon",
+				"views/scientology-in-society/narconon.html"
+			],
+			[
+				"sociecrim",
+				"views/scientology-in-society/criminon.html"
+			],
+			[
+				"applied",
+				"views/scientology-in-society/applied-scholastics.html"
+			],
+			[
+				"theway",
+				"views/scientology-in-society/the-way-to-happiness.html"
+			],
+			[
+				"video-",
+				"includes/video-inline.html"
+			],
+			[
+				"ientology-in-society/truth-about-drugs.html",
+				"views/scientology-in-society/truth-about-drugs.html"
+			],
+			[
+				"citizens",
+				"views/scientology-in-society/citizens-commission-on-human-rights.html"
+			],
+			[
+				"ientology-in-society/the-way-to-happiness.html",
+				"views/scientology-in-society/the-way-to-happiness.html"
+			],
+			[
+				"ciety/the-way-to-happiness.html",
+				"views/scientology-in-society/the-way-to-happiness.html"
+			],
+			[
+				"scientologyinsocietyindex",
+				"views/scientology-in-society/index.html"
+			],
+			[
+				"scinetologyinsocietyindex",
+				"views/scientology-in-society/index.html"
+			],
+			[
+				"att",
+				"src/site_www_bonafidescientology_org/attrs.go"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 458.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
