@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Fre",
+				"Frequency\tFreqMap ƒ"
+			],
+			[
+				"Fe",
+				"FreqMap\tmap[rune]int ʈ"
+			],
+			[
+				"Freq",
+				"FreqMap\tmap[rune]int ʈ"
+			],
+			[
 				"Quo",
 				"QuoteRune\tstring ƒ"
 			],
@@ -300,37 +312,28 @@
 	"buffers":
 	[
 		{
-			"file": "luhn/luhn_test.go",
+			"file": "parallel-letter-frequency/README.md",
 			"settings":
 			{
-				"buffer_size": 354,
+				"buffer_size": 1061,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "luhn/luhn.go",
+			"file": "parallel-letter-frequency/parallel_letter_frequency_test.go",
 			"settings":
 			{
-				"buffer_size": 446,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "package luhn"
-			}
-		},
-		{
-			"file": "luhn/cases_test.go",
-			"settings":
-			{
-				"buffer_size": 1200,
+				"buffer_size": 1710,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "luhn/README.md",
+			"file": "parallel-letter-frequency/frequency.go",
 			"settings":
 			{
-				"buffer_size": 2196,
+				"buffer_size": 327,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -409,6 +412,7 @@
 		"/Users/adanchenkov/exercism/go/house",
 		"/Users/adanchenkov/exercism/go/isogram",
 		"/Users/adanchenkov/exercism/go/luhn",
+		"/Users/adanchenkov/exercism/go/parallel-letter-frequency",
 		"/Users/adanchenkov/exercism/go/pascals-triangle",
 		"/Users/adanchenkov/exercism/go/raindrops",
 		"/Users/adanchenkov/exercism/go/scrabble-score",
@@ -420,7 +424,15 @@
 	],
 	"file_history":
 	[
+		"/Users/adanchenkov/exercism/go/grains/grains_test.go",
+		"/Users/adanchenkov/exercism/go/grains/grains.go",
+		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
+		"/Users/adanchenkov/exercism/go/luhn/luhn_test.go",
+		"/Users/adanchenkov/exercism/go/.gitignore",
+		"/Users/adanchenkov/exercism/go/luhn/luhn.go",
+		"/Users/adanchenkov/exercism/go/luhn/cases_test.go",
 		"/Users/adanchenkov/exercism/go/luhn/README.md",
+		"/Users/adanchenkov/.zshrc",
 		"/Users/adanchenkov/exercism/go/isogram/isogram_test.go",
 		"/Users/adanchenkov/exercism/go/isogram/isogram.go",
 		"/Users/adanchenkov/exercism/go/isogram/README.md",
@@ -439,7 +451,6 @@
 		"/Users/adanchenkov/exercism/go/series/asktoomuch_test.go",
 		"/Users/adanchenkov/exercism/go/series/series_test.go",
 		"/Users/adanchenkov/exercism/go/series/series.go",
-		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
 		"/Users/adanchenkov/exercism/go/two-fer/README.md",
 		"/Users/adanchenkov/exercism/go/two-fer/example_two_fer_test.go",
 		"/Users/adanchenkov/exercism/go/two-fer/two_fer.go",
@@ -477,7 +488,6 @@
 		"/Users/adanchenkov/exercism/go/acronym/README.md",
 		"/Users/adanchenkov/exercism/go/acronym/acronym.go",
 		"/Users/adanchenkov/.gitignore_global",
-		"/Users/adanchenkov/.zshrc",
 		"/Users/adanchenkov/Code/dotfiles/Makefile",
 		"/Users/adanchenkov/exercism/go/accumulate/README.md",
 		"/Users/adanchenkov/exercism/go/accumulate/accumulate.go",
@@ -541,13 +551,7 @@
 		"/Users/adanchenkov/Sites/autoresponder/data/events/mv-2017.xml",
 		"/Users/adanchenkov/Sites/autoresponder/data/events/mv2-2017.xml",
 		"/Users/adanchenkov/Sites/autoresponder/data/events/mv3-2017.xml",
-		"/Users/adanchenkov/Sites/autoresponder/data/events/mv4-2017.xml",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/archive/lrh-2017/06-local-countdown2-lrh.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/archive/current-event-2017lrhbd/06-local-countdown2-lrh.html",
-		"/Users/adanchenkov/Sites/whois/editable/blog/articles/opportunity-controls-loyalty.html",
-		"/Users/adanchenkov/Sites/autoresponder/text/sv/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/zh/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/archive/current-event-2015lrhbd/02-invite-email.html"
+		"/Users/adanchenkov/Sites/autoresponder/data/events/mv4-2017.xml"
 	],
 	"find":
 	{
@@ -644,61 +648,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "luhn/luhn_test.go",
+					"file": "parallel-letter-frequency/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 354,
+						"buffer_size": 1061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1061,
+								1061
 							]
 						],
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"syntax": "Packages/Go/Go.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "luhn/luhn.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_name": "package luhn",
-							"syntax": "Packages/Go/Go.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -708,12 +681,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "luhn/cases_test.go",
+					"buffer": 1,
+					"file": "parallel-letter-frequency/parallel_letter_frequency_test.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1200,
+						"buffer_size": 1710,
 						"regions":
 						{
 						},
@@ -727,7 +700,37 @@
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"syntax": "Packages/Go/Go.sublime-syntax",
+							"syntax": "Packages/GoSublime/something_borrowed/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "parallel-letter-frequency/frequency.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/GoSublime/something_borrowed/Go/Go.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -735,35 +738,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "luhn/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2196,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -807,6 +781,10 @@
 	"output.find_results":
 	{
 		"height": 148.0
+	},
+	"output.sublime_linter_panel":
+	{
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "exercism-go.sublime-project",
