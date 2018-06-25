@@ -12,31 +12,18 @@ func Frequency(s string) FreqMap {
 
 func ConcurrentFrequency(ss []string) FreqMap {
 	m := FreqMap{}
-	c := make(chan rune, 256)
-	d := make(chan int)
+	c := make(chan FreqMap)
 	for _, s := range ss {
 		go func(st string) {
-			d <- 1
-			for _, r := range st {
-				c <- r
-			}
-			d <- -1
+			c <- Frequency(st)
 		}(s)
 	}
-
-	go func() {
-		var counter int
-		for {
-			counter += <-d
-			if counter == 0 {
-				close(c)
-				return
-			}
+	for range ss {
+		t := <-c
+		for i, v := range t {
+			m[i] += v
 		}
-	}()
-
-	for symbol := range c {
-		m[symbol]++
 	}
+
 	return m
 }

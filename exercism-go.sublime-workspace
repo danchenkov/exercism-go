@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"referenceMap\tmap[int]*Node ·ν"
+			],
+			[
+				"No",
+				"NodeMap\tmap[int]Children ·ʈ"
+			],
+			[
+				"ch",
+				"childId\tint ·ν"
+			],
+			[
+				"freqmpa",
+				"freqmap\tFreqMap ν"
+			],
+			[
 				"Fre",
 				"Frequency\tFreqMap ƒ"
 			],
@@ -38,10 +54,6 @@
 			[
 				"Fa",
 				"Fatalf\t ƒ"
-			],
-			[
-				"ch",
-				"christmasDays\t[...]string ν"
 			],
 			[
 				"IS",
@@ -312,27 +324,19 @@
 	"buffers":
 	[
 		{
-			"file": "parallel-letter-frequency/README.md",
+			"file": "tree-building/tree_building.go",
 			"settings":
 			{
-				"buffer_size": 1061,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "parallel-letter-frequency/parallel_letter_frequency_test.go",
-			"settings":
-			{
-				"buffer_size": 1710,
+				"buffer_size": 4491,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "parallel-letter-frequency/frequency.go",
+			"file": "tree-building/tree_test.go",
 			"settings":
 			{
-				"buffer_size": 327,
+				"buffer_size": 6946,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -415,20 +419,30 @@
 		"/Users/adanchenkov/exercism/go/parallel-letter-frequency",
 		"/Users/adanchenkov/exercism/go/pascals-triangle",
 		"/Users/adanchenkov/exercism/go/raindrops",
+		"/Users/adanchenkov/exercism/go/reverse-string",
 		"/Users/adanchenkov/exercism/go/scrabble-score",
 		"/Users/adanchenkov/exercism/go/series",
 		"/Users/adanchenkov/exercism/go/space-age",
+		"/Users/adanchenkov/exercism/go/tree-building",
 		"/Users/adanchenkov/exercism/go/triangle",
 		"/Users/adanchenkov/exercism/go/twelve-days",
 		"/Users/adanchenkov/exercism/go/two-fer"
 	],
 	"file_history":
 	[
+		"/Users/adanchenkov/exercism/go/tree-building/main.go",
+		"/Users/adanchenkov/exercism/go/tree-building/README.md",
+		"/Users/adanchenkov/exercism/go/reverse-string/reverse_string.go",
+		"/Users/adanchenkov/exercism/go/reverse-string/README.md",
+		"/Users/adanchenkov/exercism/go/reverse-string/reverse_string_test.go",
+		"/Users/adanchenkov/exercism/go/parallel-letter-frequency/README.md",
+		"/Users/adanchenkov/exercism/go/parallel-letter-frequency/parallel_letter_frequency_test.go",
+		"/Users/adanchenkov/exercism/go/parallel-letter-frequency/frequency.go",
+		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
+		"/Users/adanchenkov/exercism/go/.gitignore",
 		"/Users/adanchenkov/exercism/go/grains/grains_test.go",
 		"/Users/adanchenkov/exercism/go/grains/grains.go",
-		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
 		"/Users/adanchenkov/exercism/go/luhn/luhn_test.go",
-		"/Users/adanchenkov/exercism/go/.gitignore",
 		"/Users/adanchenkov/exercism/go/luhn/luhn.go",
 		"/Users/adanchenkov/exercism/go/luhn/cases_test.go",
 		"/Users/adanchenkov/exercism/go/luhn/README.md",
@@ -543,19 +557,11 @@
 		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/07-local-countdown-2017.html",
 		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/08-local-countdown-2017.html",
 		"/Users/adanchenkov/Sites/autoresponder/text/es/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/el/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/da/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/de/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/default/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/default/gcui_events-007-mv-2016-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/data/events/mv-2017.xml",
-		"/Users/adanchenkov/Sites/autoresponder/data/events/mv2-2017.xml",
-		"/Users/adanchenkov/Sites/autoresponder/data/events/mv3-2017.xml",
-		"/Users/adanchenkov/Sites/autoresponder/data/events/mv4-2017.xml"
+		"/Users/adanchenkov/Sites/autoresponder/text/el/gcui_events-011-mv-2017-emails.xml"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -570,6 +576,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(*currentParent)",
+			"current",
+			"ByParent",
+			"ID",
+			"ById",
+			"a",
+			"Age",
+			"ByAge",
+			"chars",
+			"s",
+			"input",
+			"s",
 			"digit_position",
 			"finalScore",
 			"\"",
@@ -653,48 +671,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "parallel-letter-frequency/README.md",
+					"file": "tree-building/tree_building.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1061,
+						"buffer_size": 4491,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1061,
-								1061
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "parallel-letter-frequency/parallel_letter_frequency_test.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1710,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								2283,
+								2283
 							]
 						],
 						"settings":
@@ -704,27 +693,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 105.0,
+						"translation.y": 1293.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "parallel-letter-frequency/frequency.go",
+					"buffer": 1,
+					"file": "tree-building/tree_test.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 327,
+						"buffer_size": 6946,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								324,
-								324
+								29,
+								29
 							]
 						],
 						"settings":
@@ -745,7 +734,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -774,9 +763,17 @@
 		]
 	},
 	"menu_visible": true,
+	"output.9o:///Users/adanchenkov/exercism/go/reverse-string":
+	{
+		"height": 150.0
+	},
 	"output.GoSublime-main-output":
 	{
 		"height": 142.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
 	},
 	"output.find_results":
 	{
@@ -790,7 +787,7 @@
 	"project": "exercism-go.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
