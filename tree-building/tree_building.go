@@ -47,7 +47,7 @@ func Build(records []Record) (*Node, error) {
 	}
 
 	// presorting
-	sort.Sort(ByParentAndId(records))
+	sort.Sort(ById(records))
 
 	currentParent := &Node{}
 	referenceMap := make(map[int]*Node)
@@ -70,6 +70,10 @@ func Build(records []Record) (*Node, error) {
 			}
 		}
 
+		if referenceMap[record.ID] != nil {
+			return nil, fmt.Errorf("Duplicate record: [%d, %d]", record.ID, record.Parent)
+		}
+
 		if referenceMap[record.Parent] == nil {
 			// fmt.Printf("ERROR MAP: %+v\n", referenceMap)
 			return nil, fmt.Errorf("Invalid record: no known parent for record: [%d, %d]", record.ID, record.Parent)
@@ -86,6 +90,9 @@ func Build(records []Record) (*Node, error) {
 			// fmt.Printf("%v\n", referenceMap)
 		case record.Parent > currentParent.ID:
 			// fmt.Printf("Changing parent %d\n", record.Parent)
+			if referenceMap[record.ID-1] == nil {
+				return nil, fmt.Errorf("Invalid record: Non-continuous record [%d, %d] or failed sorting", record.ID, record.Parent)
+			}
 			if currentParent, ok := referenceMap[record.Parent]; ok {
 				// fmt.Printf("%v => ", referenceMap)
 				currentParent.Children = append(currentParent.Children, &child)
