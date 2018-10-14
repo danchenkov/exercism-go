@@ -327,7 +327,7 @@
 			"file": "tree-building/tree_building.go",
 			"settings":
 			{
-				"buffer_size": 4491,
+				"buffer_size": 4922,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -336,7 +336,7 @@
 			"file": "tree-building/tree_test.go",
 			"settings":
 			{
-				"buffer_size": 6946,
+				"buffer_size": 6253,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -675,15 +675,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4491,
+						"buffer_size": 4922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2283,
-								2283
+								4922,
+								4922
 							]
 						],
 						"settings":
@@ -693,7 +693,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1293.0,
+						"translation.y": 2601.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -705,15 +705,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6946,
+						"buffer_size": 6253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								3991,
+								4118
 							]
 						],
 						"settings":
@@ -723,7 +723,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4925.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
