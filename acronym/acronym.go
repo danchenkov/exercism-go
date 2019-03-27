@@ -7,9 +7,21 @@ import (
 const testVersion = 3
 
 func Abbreviate(input string) (output string) {
-	o := strings.Split(strings.Replace(input, "-", " ", -1), " ")
-	for i := 0; i < len(o); i++ {
-		output += strings.ToUpper(o[i][0:1])
+	words := strings.Split(strings.Replace(input, "-", " ", -1), " ")
+	for _, word := range words {
+		if len(string(word)) > 0 {
+			output += strings.ToUpper(string(word[0]))
+		}
 	}
-	return
+	return output
 }
+
+// Regexp is slower
+
+// func Abbreviate(input string) (output string) {
+// 	words := regexp.MustCompile("(?: |-)+").Split(input, -1)
+// 	for _, word := range words {
+// 		output += strings.ToUpper(string(word[0]))
+// 	}
+// 	return output
+// }

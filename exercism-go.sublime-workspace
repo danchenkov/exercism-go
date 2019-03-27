@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"base",
+				"base_dir"
+			],
+			[
+				"Re",
+				"RequestURI"
+			],
+			[
 				"re",
 				"referenceMap\tmap[int]*Node ·ν"
 			],
@@ -324,20 +332,47 @@
 	"buffers":
 	[
 		{
-			"file": "tree-building/tree_building.go",
+			"file": "scale-generator/README.md",
 			"settings":
 			{
-				"buffer_size": 4922,
+				"buffer_size": 2505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scale-generator/cases_test.go",
+			"settings":
+			{
+				"buffer_size": 2899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scale-generator/scale_generator.go",
+			"settings":
+			{
+				"buffer_size": 37,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tree-building/tree_test.go",
+			"contents": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"log\"\n\t\"net\"\n\t\"os\"\n)\n\nfunc handleConnection(c net.Conn) {\n\n\tlog.Printf(\"Client %v connected.\", c.RemoteAddr())\n\n\t// stuff to do... like read data from client, process it, write back to client\n\t// see what you can do with (c net.Conn) at\n\t// http://golang.org/pkg/net/#Conn\n\n\tbuffer := make([]byte, 4096)\n\tw := bufio.NewWriter(os.Stdout)\n\n\tfor {\n\t\tn, err := c.Read(buffer)\n\t\tif err != nil || n == 0 {\n\t\t\tc.Close()\n\t\t\tbreak\n\t\t}\n\t\tlog.Printf(\"%s\", buffer)\n\t\tn, err = w.Write(buffer[0:n])\n\t\tif err != nil {\n\t\t\tc.Close()\n\t\t\tbreak\n\t\t}\n\t}\n\tlog.Printf(\"Connection from %v closed.\", c.RemoteAddr())\n}\n\nfunc main() {\n\tln, err := net.Listen(\"tcp\", \":143\")\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\n\tfmt.Println(\"Server up and listening on port 143\")\n\n\tfor {\n\t\tconn, err := ln.Accept()\n\t\tif err != nil {\n\t\t\tlog.Println(err)\n\t\t\tcontinue\n\t\t}\n\t\tgo handleConnection(conn)\n\t}\n}\n",
+			"file": "/Users/adanchenkov/Code/go/src/github.com/danchenkov/gwp/Chapter_3_Handling_Requests/server/server.go",
+			"file_size": 897,
+			"file_write_time": 131981076148118594,
 			"settings":
 			{
-				"buffer_size": 6253,
+				"buffer_size": 897,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scale-generator/scale_generator_test.go",
+			"settings":
+			{
+				"buffer_size": 561,
 				"line_ending": "Unix"
 			}
 		}
@@ -353,6 +388,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"javasc",
 				"Set Syntax: JavaScript"
@@ -411,25 +450,40 @@
 	"expanded_folders":
 	[
 		"/Users/adanchenkov/exercism/go",
-		"/Users/adanchenkov/exercism/go/accumulate",
-		"/Users/adanchenkov/exercism/go/hello-world",
-		"/Users/adanchenkov/exercism/go/house",
-		"/Users/adanchenkov/exercism/go/isogram",
-		"/Users/adanchenkov/exercism/go/luhn",
-		"/Users/adanchenkov/exercism/go/parallel-letter-frequency",
-		"/Users/adanchenkov/exercism/go/pascals-triangle",
-		"/Users/adanchenkov/exercism/go/raindrops",
-		"/Users/adanchenkov/exercism/go/reverse-string",
-		"/Users/adanchenkov/exercism/go/scrabble-score",
-		"/Users/adanchenkov/exercism/go/series",
-		"/Users/adanchenkov/exercism/go/space-age",
-		"/Users/adanchenkov/exercism/go/tree-building",
-		"/Users/adanchenkov/exercism/go/triangle",
-		"/Users/adanchenkov/exercism/go/twelve-days",
-		"/Users/adanchenkov/exercism/go/two-fer"
+		"/Users/adanchenkov/exercism/go/robot-name",
+		"/Users/adanchenkov/exercism/go/scale-generator"
 	],
 	"file_history":
 	[
+		"/usr/local/etc/dovecot/conf.d/10-ssl.conf",
+		"/usr/local/etc/dovecot/conf.d/10-auth.conf",
+		"/usr/local/var/run/dovecot/dovecot.conf",
+		"/usr/local/etc/dovecot/dovecot.conf",
+		"/usr/local/etc/dovecot/conf.d/10-master.conf",
+		"/usr/local/etc/dovecot/conf.d/auth-passwdfile.conf.ext",
+		"/usr/local/etc/dovecot/users",
+		"/usr/local/etc/dovecot/local.conf",
+		"/usr/local/etc/dovecot/conf.d/10-mail.conf",
+		"/usr/local/etc/dovecot/conf.d/10-mail",
+		"/usr/local/etc/dovecot/conf.d/20-imap.conf",
+		"/Users/adanchenkov/Code/go/src/github.com/danchenkov/gwp/Chapter_3_Handling_Requests/server/server.go",
+		"/usr/local/etc/dovecot/README",
+		"/Users/adanchenkov/exercism/go/robot-name/README.md",
+		"/Users/adanchenkov/exercism/go/robot-name/robot_name_test.go",
+		"/Users/adanchenkov/exercism/go/robot-name/robot_name.go",
+		"/Users/adanchenkov/exercism/go/robot-name/bonus_test.go",
+		"/Users/adanchenkov/exercism/go/robot-name/fisher-yates-shuffle.go",
+		"/Users/adanchenkov/.vimrc",
+		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
+		"/Users/adanchenkov/exercism/go/acronym/README.md",
+		"/Users/adanchenkov/exercism/go/acronym/acronym_test.go",
+		"/Users/adanchenkov/exercism/go/acronym/cases_test.go",
+		"/Users/adanchenkov/exercism/go/acronym/acronym.go",
+		"/Users/adanchenkov/Downloads/readmelater.txt",
+		"/Users/adanchenkov/Sites/stand/editable/news/another-criminal-remini-source-returns-to-jail.html",
+		"/Users/adanchenkov/exercism/go/clock/clock.go",
+		"/Users/adanchenkov/exercism/go/tree-building/tree_test.go",
+		"/Users/adanchenkov/exercism/go/tree-building/tree_building.go",
 		"/Users/adanchenkov/exercism/go/tree-building/main.go",
 		"/Users/adanchenkov/exercism/go/tree-building/README.md",
 		"/Users/adanchenkov/exercism/go/reverse-string/reverse_string.go",
@@ -438,7 +492,6 @@
 		"/Users/adanchenkov/exercism/go/parallel-letter-frequency/README.md",
 		"/Users/adanchenkov/exercism/go/parallel-letter-frequency/parallel_letter_frequency_test.go",
 		"/Users/adanchenkov/exercism/go/parallel-letter-frequency/frequency.go",
-		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
 		"/Users/adanchenkov/exercism/go/.gitignore",
 		"/Users/adanchenkov/exercism/go/grains/grains_test.go",
 		"/Users/adanchenkov/exercism/go/grains/grains.go",
@@ -499,8 +552,6 @@
 		"/Users/adanchenkov/exercism/go/bob/bob.go",
 		"/Users/adanchenkov/exercism/go/pangram/pangram_test.go",
 		"/Users/adanchenkov/exercism/go/pangram/pangram.go",
-		"/Users/adanchenkov/exercism/go/acronym/README.md",
-		"/Users/adanchenkov/exercism/go/acronym/acronym.go",
 		"/Users/adanchenkov/.gitignore_global",
 		"/Users/adanchenkov/Code/dotfiles/Makefile",
 		"/Users/adanchenkov/exercism/go/accumulate/README.md",
@@ -510,7 +561,6 @@
 		"/Users/adanchenkov/exercism/go/hamming/hamming.go",
 		"/Users/adanchenkov/Sites/stand/editable/blog/the-power-of-a-well-told-story.html",
 		"/Users/adanchenkov/exercism/go/gigasecond/gigasecond.go",
-		"/Users/adanchenkov/exercism/go/clock/clock.go",
 		"/Users/adanchenkov/exercism/go/clock/README.md",
 		"/Users/adanchenkov/exercism/go/leap/leap.go",
 		"/Users/adanchenkov/exercism/go/hello-world/hello_world.go",
@@ -532,42 +582,18 @@
 		"/Users/adanchenkov/Code/email generator/stand.go",
 		"/Users/adanchenkov/Sites/autoresponder/messages/www.stand-league.org/stand-subscription/20170620-1.html",
 		"/Users/adanchenkov/Code/email generator/bonafide.go",
-		"/Users/adanchenkov/Code/email generator/bonafide",
-		"/Users/adanchenkov/Code/email generator/emailGenerator.go",
-		"/Users/adanchenkov/Code/email generator/daily-20170620.html",
-		"/Users/adanchenkov/Sites/stand/https.crt",
-		"/Users/adanchenkov/Sites/autoresponder/text/ru/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/pt/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/no/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/nl/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/ja/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/it/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/hu/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/he/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/fr/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/default/gcui_events-008-ias-2016-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/src/site_autoresponder/hook.go",
-		"/Users/adanchenkov/Sites/autoresponder/text/es_ES/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/01-invite-email-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/02-invite-email-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/03-invite-email-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/04-invite-email-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/05-local-countdown-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/06-local-countdown-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/07-local-countdown-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.scientology.org/events/current-event/08-local-countdown-2017.html",
-		"/Users/adanchenkov/Sites/autoresponder/text/es/gcui_events-011-mv-2017-emails.xml",
-		"/Users/adanchenkov/Sites/autoresponder/text/el/gcui_events-011-mv-2017-emails.xml"
+		"/Users/adanchenkov/Code/email generator/bonafide"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
 		"height": 116.0,
 		"where_history":
 		[
+			"<project>",
 			""
 		]
 	},
@@ -576,6 +602,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/etc/dovecot/",
+			"CHANGE",
+			"/var/run/dovecot",
+			"6000",
+			"var ",
+			"struct{}",
+			"string(",
+			"seen",
+			"names",
+			",",
+			"sm",
+			"seed",
+			"current",
+			"rand.",
+			"func New() *",
+			"unc New() *",
 			"(*currentParent)",
 			"current",
 			"ByParent",
@@ -666,67 +708,173 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tree-building/tree_building.go",
+					"file": "scale-generator/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4922,
+						"buffer_size": 2505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4922,
-								4922
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"syntax": "Packages/GoSublime/something_borrowed/Go/Go.sublime-syntax",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scale-generator/cases_test.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.190.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Go/Go.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2601.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scale-generator/scale_generator.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"SL.191.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/adanchenkov/Code/go/src/github.com/danchenkov/gwp/Chapter_3_Handling_Requests/server/server.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"SL.197.region_keys":
+							[
+							],
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "tree-building/tree_test.go",
-					"semi_transient": false,
+					"buffer": 4,
+					"file": "scale-generator/scale_generator_test.go",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6253,
+						"buffer_size": 561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3991,
-								4118
+								8,
+								13
 							]
 						],
 						"settings":
 						{
+							"SL.193.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
-							"syntax": "Packages/GoSublime/something_borrowed/Go/Go.sublime-syntax",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Go/Go.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4925.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -778,6 +926,10 @@
 	"output.find_results":
 	{
 		"height": 148.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
 	},
 	"output.sublime_linter_panel":
 	{
@@ -1337,7 +1489,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 458.0,
+	"side_bar_width": 356.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

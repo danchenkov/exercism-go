@@ -1,8 +1,8 @@
 package acronym
 
-// Source: exercism/x-common
-// Commit: cae7ae1 acronym: remove test case with mixed-case phrase (#788)
-// x-common version: 1.1.0
+// Source: exercism/problem-specifications
+// Commit: 2e46654b Acronym: New test case for apostrophe (#1377)
+// Problem Specifications Version: 1.6.0
 
 type acronymTest struct {
 	input    string
@@ -23,15 +23,23 @@ var stringTestCases = []acronymTest{
 		expected: "FIFO",
 	},
 	{
-		input:    "PHP: Hypertext Preprocessor",
-		expected: "PHP",
-	},
-	{
 		input:    "GNU Image Manipulation Program",
 		expected: "GIMP",
 	},
 	{
 		input:    "Complementary metal-oxide semiconductor",
 		expected: "CMOS",
+	},
+	{
+		input:    "Rolling On The Floor Laughing So Hard That My Dogs Came Over And Licked Me",
+		expected: "ROTFLSHTMDCOALM",
+	},
+	{
+		input:    "Something - I made up from thin air",
+		expected: "SIMUFTA",
+	},
+	{
+		input:    "Halley's Comet",
+		expected: "HC",
 	},
 }
