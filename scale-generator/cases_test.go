@@ -73,6 +73,12 @@ var scaleTestCases = []scaleTest{
 		expected:    []string{"A", "B", "C#", "D#", "E", "F#", "G#"},
 	},
 	{
+		description: "A minor",
+		tonic:       "a",
+		interval:    "MmMMmM",
+		expected:    []string{"A", "B", "C", "D", "E", "F", "G"},
+	},
+	{
 		description: "Phrygian mode",
 		tonic:       "e",
 		interval:    "mMMMmMM",

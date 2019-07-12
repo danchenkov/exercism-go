@@ -25,12 +25,11 @@ C major
 a minor
 
 Use Sharps:
-G, D, A, E, B, F# major
-e, b, f#, c#, g#, d# minor
+ major
+G, D, A, E, B, F#, e, b, f#, c#, g#, d# minor
 
 Use Flats:
-F, Bb, Eb, Ab, Db, Gb major
-d, g, c, f, bb, eb minor
+F, Bb, Eb, Ab, Db, Gb, d, g, c, f, bb, eb minor
 
 The diatonic scales, and all other scales that derive from the
 chromatic scale, are built upon intervals. An interval is the space
