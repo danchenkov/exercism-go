@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"concatList"
+			],
+			[
+				"List",
+				"IntList"
+			],
+			[
 				"curren",
 				"currentInterval"
 			],
@@ -360,34 +368,27 @@
 	"buffers":
 	[
 		{
-			"file": "collatz-conjecture/README.md",
+			"file": "list-ops/README.md",
 			"settings":
 			{
-				"buffer_size": 1546,
+				"buffer_size": 965,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "collatz-conjecture/cases_test.go",
+			"file": "list-ops/listops_test.go",
 			"settings":
 			{
-				"buffer_size": 807,
+				"buffer_size": 6087,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "collatz-conjecture/collatz_conjecture_test.go",
+			"file": "list-ops/listops.go",
 			"settings":
 			{
-				"buffer_size": 921,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "collatz-conjecture/collatz_conjecture.go",
-			"settings":
-			{
-				"buffer_size": 421,
+				"buffer_size": 1437,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -466,16 +467,25 @@
 	"expanded_folders":
 	[
 		"/Users/adanchenkov/exercism/go",
-		"/Users/adanchenkov/exercism/go/collatz-conjecture",
-		"/Users/adanchenkov/exercism/go/scale-generator"
+		"/Users/adanchenkov/exercism/go/list-ops",
+		"/Users/adanchenkov/exercism/go/list-ops/.exercism"
 	],
 	"file_history":
 	[
+		"/Users/adanchenkov/Sites/narconon/editable/narconon-europe/blog/essere-sobri-il-nuovo-sballo_it_DK.html",
+		"/Users/adanchenkov/Sites/narconon/editable/narconon-michigan/blog/3-tips-on-surviving-the-holidays-sober_en_US.html",
+		"/Users/adanchenkov/Sites/narconon/editable/narconon-michigan/blog/5-facts-about-the-michigan-opioid-epidemic_en_US.html",
+		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
+		"/Users/adanchenkov/exercism/javascript/reduce/reduce.js",
+		"/Users/adanchenkov/Downloads/list.txt",
+		"/Users/adanchenkov/exercism/go/collatz-conjecture/collatz_conjecture.go",
+		"/Users/adanchenkov/exercism/go/collatz-conjecture/collatz_conjecture_test.go",
+		"/Users/adanchenkov/exercism/go/collatz-conjecture/cases_test.go",
+		"/Users/adanchenkov/exercism/go/collatz-conjecture/README.md",
 		"/Users/adanchenkov/exercism/go/fisher-yates-shuffle.go",
 		"/Users/adanchenkov/exercism/go/scale-generator/scale_generator.go",
 		"/Users/adanchenkov/exercism/go/scale-generator/README.md",
 		"/Users/adanchenkov/exercism/go/scale-generator/cases_test.go",
-		"/Users/adanchenkov/exercism/go/exercism-go.sublime-project",
 		"/Users/adanchenkov/exercism/go/scale-generator/scale_generator_test.go",
 		"/Users/adanchenkov/exercism/go/robot-name/robot_name.go",
 		"/Users/adanchenkov/Code/go/src/github.com/danchenkov/gwp/Chapter_3_Handling_Requests/server/server.go",
@@ -589,20 +599,11 @@
 		"/Users/adanchenkov/exercism/go/hello-world/README.md",
 		"/Users/adanchenkov/Sites/autoresponder/src/inetgit.staff.scientology.net/gocsi/boring/langhelp/langhelp.go",
 		"/Users/adanchenkov/Sites/oxfordcapacityanalysis/src/site_www_oxfordcapacityanalysis_org/context.go",
-		"/Users/adanchenkov/Sites/autoresponder/src/data/data_orgs/orgs.xml",
-		"/Users/adanchenkov/Sites/autoresponder/script/scheduler.go",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.stand-league.org/stand-subscription/20170701-3.html",
-		"/Users/adanchenkov/Sites/autoresponder/src/site_autoresponder/main.go",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.stand-league.org/stand-subscription/stand-initial-email.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/stand-subscription/stand-initial-email.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/stand-subscription/20170701-1.html",
-		"/Users/adanchenkov/Sites/autoresponder/src/data/data_orgs/config.xml",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/subscription/stand-initial-email.html",
-		"/Users/adanchenkov/Sites/autoresponder/messages/www.standleague.org/subscription/20170701.html"
+		"/Users/adanchenkov/Sites/autoresponder/src/data/data_orgs/orgs.xml"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -618,6 +619,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"filtered",
+			"s",
+			"IntList",
+			"(list IntList)",
+			"list IntList",
+			"List IntList",
+			"list IntList",
+			"predFunc",
+			"modified:   ",
+			"bool",
+			"func(int)",
+			"IntList",
 			"nil",
 			"ToUpper",
 			"tonic",
@@ -742,24 +755,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "collatz-conjecture/README.md",
+					"file": "list-ops/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1546,
+						"buffer_size": 965,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1179,
-								1220
+								0,
+								0
 							]
 						],
 						"settings":
@@ -772,35 +785,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "collatz-conjecture/cases_test.go",
+					"file": "list-ops/listops_test.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 807,
+						"buffer_size": 6087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8,
-								25
+								3806,
+								3806
 							]
 						],
 						"settings":
 						{
-							"SL.2013.region_keys":
+							"SL.128.region_keys":
 							[
 							],
-							"SL.2539.region_keys":
+							"SL.139.region_keys":
 							[
 							],
-							"SL.2687.region_keys":
+							"SL.1576.region_keys":
+							[
+							],
+							"SL.275.region_keys":
+							[
+							],
+							"SL.79.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -809,7 +828,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5034.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -817,24 +836,45 @@
 				},
 				{
 					"buffer": 2,
-					"file": "collatz-conjecture/collatz_conjecture_test.go",
+					"file": "list-ops/listops.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 921,
+						"buffer_size": 1437,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								76
+								1422,
+								1422
 							]
 						],
 						"settings":
 						{
-							"SL.2694.region_keys":
+							"SL.129.region_keys":
+							[
+							],
+							"SL.140.region_keys":
+							[
+							],
+							"SL.1565.region_keys":
+							[
+							],
+							"SL.1577.region_keys":
+							[
+							],
+							"SL.276.region_keys":
+							[
+							],
+							"SL.3121.region_keys":
+							[
+							],
+							"SL.492.region_keys":
+							[
+							],
+							"SL.80.region_keys":
 							[
 							],
 							"apply_syntax_touched": true,
@@ -843,41 +883,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "collatz-conjecture/collatz_conjecture.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								415,
-								415
-							]
-						],
-						"settings":
-						{
-							"SL.2691.region_keys":
-							[
-							],
-							"apply_syntax_touched": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Go/Go.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 531.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
