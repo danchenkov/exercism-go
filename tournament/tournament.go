@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// TeamResult keeps current standings for a team
 type TeamResult struct {
 	matches int
 	wins    int
@@ -20,15 +21,13 @@ func (t *TeamResult) points() int {
 	return t.wins*3 + t.draws
 }
 
+// Ranking is used for sorting
 type Ranking struct {
 	team   string
 	result *TeamResult
 }
 
-type byRanking []Ranking
-
 func win(team1, team2 string, results map[string]*TeamResult) map[string]*TeamResult {
-	// log.Print("win: " + team1)
 	if r, ok := results[team1]; ok {
 		r.matches++
 		r.wins++
@@ -47,7 +46,6 @@ func win(team1, team2 string, results map[string]*TeamResult) map[string]*TeamRe
 }
 
 func draw(team1, team2 string, results map[string]*TeamResult) map[string]*TeamResult {
-	// log.Print("draw: " + team1 + "/" + team2)
 	if r, ok := results[team1]; ok {
 		r.matches++
 		r.draws++
@@ -65,6 +63,7 @@ func draw(team1, team2 string, results map[string]*TeamResult) map[string]*TeamR
 	return results
 }
 
+// Tally reads slice of strings with raw results; writes current tournament standing
 func Tally(r io.Reader, w io.Writer) error {
 	results := make(map[string]*TeamResult)
 	var rankings []Ranking
@@ -73,19 +72,16 @@ func Tally(r io.Reader, w io.Writer) error {
 		line := strings.TrimSpace(scanner.Text())
 
 		if len(line) == 0 {
-			// log.Print("Empty string in the input; ignoring")
 			continue
 		}
 
 		if strings.HasPrefix(line, "#") || strings.HasPrefix(line, "//") {
-			// log.Print("Comment in the input; ignoring")
 			continue
 		}
 
 		if strings.Count(scanner.Text(), ";") != 2 {
 			return errors.New("Invalid input: " + scanner.Text())
 		}
-		// log.Print(line)
 
 		result := strings.Split(scanner.Text(), ";")
 		if len(result[0]) == 0 || strings.HasPrefix(result[0], "#") || strings.HasPrefix(result[0], "//") {
@@ -113,7 +109,12 @@ func Tally(r io.Reader, w io.Writer) error {
 		r.result = v
 		rankings = append(rankings, *r)
 	}
-	sort.Sort(byRanking(rankings))
+	sort.Slice(rankings, func(i, j int) bool {
+		if rankings[i].result.points() == rankings[j].result.points() {
+			return rankings[i].team < rankings[j].team
+		}
+		return rankings[i].result.points() > rankings[j].result.points()
+	})
 
 	fmt.Fprintln(w, "Team                           | MP |  W |  D |  L |  P")
 	for _, r := range rankings {
@@ -121,35 +122,3 @@ func Tally(r io.Reader, w io.Writer) error {
 	}
 	return nil
 }
-
-func (r byRanking) Len() int {
-	return len(r)
-}
-
-func (r byRanking) Swap(i, j int) {
-	r[i], r[j] = r[j], r[i]
-}
-
-func (r byRanking) Less(i, j int) bool {
-	if r[i].result.points() == r[j].result.points() {
-		if r[i].result.wins == r[j].result.wins {
-			if r[i].result.matches == r[j].result.matches {
-				if r[i].result.losses == r[j].result.losses {
-					return r[i].team < r[j].team
-				}
-				return r[i].result.losses < r[j].result.losses
-			}
-			return r[i].result.matches > r[j].result.matches
-		}
-		return r[i].result.wins > r[j].result.wins
-	}
-	return r[i].result.points() > r[j].result.points()
-}
-
-// func main() {
-// 	blob := "\n\nAllegoric Alaskians;Blithering Badgers;win\n##Allegoric Alaskians;Blithering Badgers;win\nDevastating Donkeys;Courageous Californians;draw\nDevastating Donkeys;Allegoric Alaskians;win\nCourageous Californians;Blithering Badgers;loss\nBlithering Badgers;Devastating Donkeys;loss\nAllegoric Alaskians;Courageous Californians;win"
-// 	buf := bytes.NewBufferString(blob)
-// 	if err := Tally(buf, os.Stdout); err != nil {
-// 		fmt.Printf("Error: %s", err)
-// 	}
-// }
